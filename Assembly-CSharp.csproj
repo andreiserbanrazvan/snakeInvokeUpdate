@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Snake\CameraShake.cs" />
+    <Compile Include="Assets\Snake\CameraShakeOnStart.cs" />
     <Compile Include="Assets\Snake\Snake.cs" />
+    <Compile Include="Assets\SpawnRandomly.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -17,7 +17,8 @@ public class Snake : MonoBehaviour
     void MoveSnake()
     {
         Instantiate(snakeBit, transform.position, transform.rotation);
-       int turnDirection = Random.Range(0, 3);
+          
+        int turnDirection = Random.Range(0, 3);
         if (turnDirection == 1)
         {
             transform.Rotate(new Vector3(0, 90, 0));
